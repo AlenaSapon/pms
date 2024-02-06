@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="/css/light.css" rel="stylesheet">
+</head>
+<body>
+<div class="col-12 col-xl-6">
+    <div class="card">
+        <div class="card-header">
+            <h5 class="card-title">Введите данные пациента</h5>
+
+        </div>
+        <div class="card-body">
+            <form>
+                <div class="row">
+                    <div class="mb-3 col-md-4">
+                        <label class="form-label" for="inputCity">Фамилия</label>
+                        <input type="text" class="form-control" id="lastName">
+                    </div>
+
+                    <div class="mb-3 col-md-4">
+                        <label class="form-label" for="inputZip">Имя</label>
+                        <input type="text" class="form-control" id="firstName">
+                    </div>
+                    <div class="mb-3 col-md-4">
+                        <label class="form-label" for="inputCity">Отчество</label>
+                        <input type="text" class="form-control" id="surName">
+                    </div></div>
+
+                <div class="row">
+                    <label class="col-form-label col-sm-2 text-sm-end pt-sm-0">Пол</label>
+                    <div class="col-sm-10">
+                        <label class="form-check">
+                            <input name="radio-3" type="radio" class="form-check-input" checked="">
+                            <span class="form-check-label">М</span>
+                        </label>
+                        <label class="form-check">
+                            <input name="radio-3" type="radio" class="form-check-input">
+                            <span class="form-check-label">Ж</span>
+                        </label>
+
+                        <label class="form-check">
+                            <input name="radio-3" type="radio" class="form-check-input">
+                            <span class="form-check-label">Другое</span>
+                        </label></div>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label" for="inputAddress">Улица, дом, квартира</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="адрес">
+                </div><div class="row">
+                <div class="mb-3 col-md-6">
+                    <label class="form-label" for="inputCity">Город</label>
+                    <input type="text" class="form-control" id="inputCity">
+                </div>
+                <div class="mb-3 col-md-4">
+                    <label class="form-label" for="inputState">Область</label>
+                    <select id="inputState" class="form-control">
+                        <option selected="">Минская</option>
+                        <option>Гродненская</option>
+                        <option>Гомельская</option></select>
+                </div>
+                <div class="mb-3 col-md-2">
+                    <label class="form-label" for="inputZip">Почтовый код</label>
+                    <input type="text" class="form-control" id="inputZip">
+                </div>
+            </div>
+                <div class="mb-3">
+                    <label class="form-label">Email address</label>
+                    <input type="email" class="form-control" placeholder="Email">
+                </div><div class="mb-3">
+                <label class="form-label">File input</label>
+                <input class="form-control" type="file">
+            </div><div class="mb-3">
+                <label class="form-check m-0">
+                    <input type="checkbox" class="form-check-input">
+                    <span class="form-check-label">Согласен на обработку персональных данных</span>
+                </label>
+            </div><button type="submit" class="btn btn-primary">Сохранить</button></form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
